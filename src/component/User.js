@@ -16,9 +16,7 @@ const User = (props) => {
                   <div className="position-absolute top-0 start-3 text-black-50">
                     {user.id}
                   </div>
-                  {/* <div className="text-center bg-info rounded-pill text-white m-2">✉️{user.email}</div> */}
-                  {/* <img src="https://www.pngfind.com/pngs/m/470-4703547_icon-user-icon-hd-png-download.png" className="card-img-top " alt="..." style={{ backgroundSize: "cover", height: "300px" }} /> */}
-                  <div className="card-body">
+                                 <div className="card-body">
                     <h5 className="card-title">{user.name}</h5>
                     <p className="card-text">👤{user.username}</p>
                     <p className="card-text">📞{user.phone}</p>
